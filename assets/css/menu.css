@@ -11,3 +11,10 @@
 .menu__link:hover, .ativo{
     border-bottom: 2px solid #0073e6;
 }
+
+/* @media screen and (max-width: 768px) {
+    .cabecalho {
+        justify-content: space-around;
+        padding: 0;
+    }
+} */

@@ -72,3 +72,25 @@
     line-height: 1.5;
     margin: 1rem 0.25rem;
 }
+
+/* @media screen and (max-width: 1024px) {
+    .populares__card{
+        width: 40vw;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .populares, .populares__conteudo{
+        padding-bottom: 0;
+    }
+
+    .populares__conteudo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .populares__card{
+        width: 100%;
+    }
+} */

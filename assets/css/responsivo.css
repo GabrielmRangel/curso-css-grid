@@ -1,0 +1,56 @@
+@media screen and (max-width: 1024px) {
+    .populares__card{
+        width: 40vw;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .cabecalho {
+        justify-content: space-around;
+        padding: 0;
+    }
+
+    .destaques{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .caixa{
+        height: 20vh;
+    }
+
+    .destaques__principal{
+        background: url('../img/fortnite.jpg') center 15% / cover no-repeat;
+    }
+
+    .destaques__secundario:nth-child(2){
+        background: url('../img/pubg.jpg') center 10% / cover no-repeat;
+    }
+    
+    .destaques__secundario:nth-child(5){
+        background: url('../img/cs-go.jpg') center 10% / cover no-repeat;
+    }
+
+    .destaques__categorias__lista{
+        white-space: nowrap;
+    }
+
+    .destaques__categorias___link{
+        margin: 0;
+    }
+
+    .populares, .populares__conteudo{
+        padding-bottom: 0;
+    }
+
+    .populares__conteudo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .populares__card{
+        width: 100%;
+    }
+}
